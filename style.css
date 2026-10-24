@@ -89,7 +89,7 @@ footer {
 /* ===== Kartu proyek ===== */
 .kartu-container {
   display: flex;
-  gap: 3rem;
+  gap: 1rem;
   flex-wrap: wrap;
 }
 
@@ -108,4 +108,19 @@ footer {
 .kartu-proyek a {
   display: inline-block;
   margin-top: 0.5rem;
+}
+
+/* ===== Responsive: layar kecil ===== */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  section {
+    padding: 1rem;
+  }
+
+  nav {
+    gap: 0.75rem;
+  }
 }
